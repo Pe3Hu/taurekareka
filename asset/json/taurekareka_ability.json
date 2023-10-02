@@ -1,0 +1,372 @@
+[
+ {
+  "index": 0,
+  "type": "gladiator",
+  "subtype": "passive",
+  "effect condition": "late registration phase",
+  "effect description": "you may late register gladiator for free",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 1,
+  "type": "gladiator",
+  "subtype": "reaction",
+  "effect condition": "when gladiator attacks",
+  "effect description": "move 1 damage from target gladiator to another target gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 2,
+  "type": "gladiator",
+  "subtype": "reaction",
+  "effect condition": "when gladiator attacks",
+  "effect description": " exhaust a target gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 3,
+  "type": "gladiator",
+  "subtype": "passive",
+  "effect condition": "when gladiator is exashausted",
+  "effect description": "all incoming damage equals 1",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 4,
+  "type": "gladiator",
+  "subtype": "reaction",
+  "effect condition": "when gladiator attacks",
+  "effect description": "split outcoming damage amoung any number of gladiators",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 5,
+  "type": "gladiator",
+  "subtype": "reaction",
+  "effect condition": "when gladiator attacks",
+  "effect description": "gain 1 attack for each ohter exhausted gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 6,
+  "type": "gladiator",
+  "subtype": "reaction",
+  "effect condition": "when gladiator enter an arena",
+  "effect description": "draw 2 cards",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 7,
+  "type": "gladiator",
+  "subtype": "passive",
+  "effect condition": "any time",
+  "effect description": "you may reserve target gladiator. You may play gladiator as tactic.",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 8,
+  "type": "gladiator",
+  "subtype": "reaction",
+  "effect condition": "when gladiator attacks",
+  "effect description": "ready another target gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 9,
+  "type": "gladiator",
+  "subtype": "reaction",
+  "effect condition": "when you use tacitc",
+  "effect description": "deal 1 damage to target gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 10,
+  "type": "gladiator",
+  "subtype": "reaction",
+  "effect condition": "when gladiator attacks",
+  "effect description": "deal 1 damage to each opponent gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 11,
+  "type": "gladiator",
+  "subtype": "passive",
+  "effect condition": "while gladiator is exhausted",
+  "effect description": "each other gladiator loses all abilities",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 12,
+  "type": "gladiator",
+  "subtype": "reaction",
+  "effect condition": "when gladiator enter an arena",
+  "effect description": "deal 1 damage to target gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 13,
+  "type": "gladiator",
+  "subtype": "reaction",
+  "effect condition": "when gladiator leaves an arena",
+  "effect description": "deal damage equals gladiator attack to a target gladiator in that arena",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 14,
+  "type": "gladiator",
+  "subtype": "reaction",
+  "effect condition": "when gladiator attacks",
+  "effect description": "gain 1 attack for each damage on gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 15,
+  "type": "gladiator",
+  "subtype": "reaction",
+  "effect condition": "when damage is assigned to another gladiator",
+  "effect description": "prevent 1 damage to a target gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 100,
+  "type": "scheme",
+  "subtype": "scheme",
+  "effect condition": "take action phase",
+  "effect description": "destroy card from hand",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "2 permanent coins"
+ },
+ {
+  "index": 101,
+  "type": "scheme",
+  "subtype": "scheme",
+  "effect condition": "take action phase",
+  "effect description": "refresh top 3 supply card",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 200,
+  "type": "patron",
+  "subtype": "tacitc",
+  "effect condition": "exhaust patron",
+  "effect description": "deal 1 damage to target gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": " exhaust a target patron"
+ },
+ {
+  "index": 201,
+  "type": "patron",
+  "subtype": "passive",
+  "effect condition": "unreserve phase",
+  "effect description": "reduce the cost to buy back your reserve by 1 coin",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 202,
+  "type": "patron",
+  "subtype": "passive",
+  "effect condition": "buying phase",
+  "effect description": "reduce the cost of each tactic you buy by 1 coin",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 203,
+  "type": "patron",
+  "subtype": "passive",
+  "effect condition": "determing initiaive",
+  "effect description": "add 1 initiaive",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 204,
+  "type": "patron",
+  "subtype": "reaction",
+  "effect condition": "when damage is assigned",
+  "effect description": "prevent 1 damage to a target gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": " exhaust a target patron"
+ },
+ {
+  "index": 205,
+  "type": "patron",
+  "subtype": "tacitic\/scheme",
+  "effect condition": "any time",
+  "effect description": "dram a card, then discard a card",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": " exhaust a target patron"
+ },
+ {
+  "index": 300,
+  "type": "tacitic",
+  "subtype": "reaction",
+  "effect condition": "when damage is assigned",
+  "effect description": "reassign 1 damage from target gladiator to another target gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 301,
+  "type": "tacitic",
+  "subtype": "tacitic",
+  "effect condition": "tactic phase",
+  "effect description": "deal 1 damage to target gladiator",
+  "return condition": "target gladiator is defeated",
+  "return cost": "2 temporary coins",
+  "effect cost": "no"
+ },
+ {
+  "index": 302,
+  "type": "tacitic",
+  "subtype": "tacitic",
+  "effect condition": "tactic phase",
+  "effect description": " exhaust a target gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 303,
+  "type": "tacitic",
+  "subtype": "tacitic",
+  "effect condition": "tactic phase",
+  "effect description": " exhaust a target patron",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 304,
+  "type": "tacitic",
+  "subtype": "tacitic",
+  "effect condition": "tactic phase",
+  "effect description": "deal 3 damage to target gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 305,
+  "type": "tacitic",
+  "subtype": "reaction",
+  "effect condition": "when damage is assigned",
+  "effect description": "prevent 2 damage to a target gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 306,
+  "type": "tacitic",
+  "subtype": "tacitic",
+  "effect condition": "tactic phase",
+  "effect description": "ready a target gladiator and heal 1 damage ",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 307,
+  "type": "tacitic",
+  "subtype": "tacitic",
+  "effect condition": "tactic phase",
+  "effect description": "deal 2 damage to target gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 308,
+  "type": "tacitic",
+  "subtype": "tacitic",
+  "effect condition": "determing initiaive",
+  "effect description": "add 1 initiaive for each gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 309,
+  "type": "tacitic",
+  "subtype": "reaction",
+  "effect condition": "when damage is assigned",
+  "effect description": "reassign 3 damage from target gladiator to another target gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 310,
+  "type": "tacitic",
+  "subtype": "reaction",
+  "effect condition": "when damage is assigned",
+  "effect description": "split incoming damage among gladiators you own",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 311,
+  "type": "tacitic",
+  "subtype": "tacitic",
+  "effect condition": "tactic phase",
+  "effect description": "each of your gladiators gain 1 temporary defense ",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ },
+ {
+  "index": 312,
+  "type": "tacitic",
+  "subtype": "reaction",
+  "effect condition": "when damage is assigned",
+  "effect description": "prevent 3 damage to a target gladiator",
+  "return condition": "no",
+  "return cost": "no",
+  "effect cost": "no"
+ }
+]
